@@ -1,4 +1,3 @@
-
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -23,3 +22,12 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+###> Autres exclusions spécifiques ###
+/node_modules/
+/.idea/
+/.vscode/
+/public/build/
+/public/uploads/
+/tests/bootstrap.php
+###< Autres exclusions spécifiques ###
